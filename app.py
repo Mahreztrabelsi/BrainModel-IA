@@ -39,7 +39,7 @@ label_dict = {
 }
 
 stage_info = {
-    # 0: {"stage": "Stage 0", "info": "The tumor is localized and small, with no invasion of nearby tissue.", "recommendation": "Observation or surgical removal is usually recommended."},
+    0: {"stage": "Stage 0", "info": "The tumor is localized and small, with no invasion of nearby tissue.", "recommendation": "Observation or surgical removal is usually recommended."},
     1: {"stage": "Stage 1", "info": "The tumor is slightly larger, but still confined to the region of origin.", "recommendation": "Treatment may include surgery or localized radiation."},
     2: {"stage": "Stage 2", "info": "The tumor is larger or may have started spreading to nearby tissues.", "recommendation": "Radiation and/or chemotherapy may be necessary along with surgery."},
     3: {"stage": "Stage 3", "info": "The tumor has spread to nearby lymph nodes or other tissues.", "recommendation": "Aggressive treatment including surgery, radiation, and chemotherapy is often required."},
