@@ -97,6 +97,10 @@ if uploaded_file is not None:
     # Display results
     st.write("### Prediction Result")
     st.write("Tumor Type:", label)
+    if (label == "No Tumor"):
+            st.write("Stage Information:", "There is no Stage for  tumor type: No Tumor ")
+            st.write("Treatment Recommendation:", "There is no Recommendations for tumor type: No Tumor ")
+            
     st.write("Stage Prediction:", stage_details['stage'])
     st.write("Stage Information:", stage_details['info'])
     st.write("Treatment Recommendation:", stage_details['recommendation'])
