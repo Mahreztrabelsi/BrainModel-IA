@@ -100,9 +100,9 @@ if uploaded_file is not None:
     if (label == "No Tumor"):
             st.write("Stage Information:", "There is no Stage for  tumor type: No Tumor ")
             st.write("Treatment Recommendation:", "There is no Recommendations for tumor type: No Tumor ")
-            
-    st.write("Stage Prediction:", stage_details['stage'])
-    st.write("Stage Information:", stage_details['info'])
-    st.write("Treatment Recommendation:", stage_details['recommendation'])
-    st.image("data:image/png;base64," + histogram_base64, caption='Tumor Type Probabilities Histogram', use_column_width=True)
+    else :
+        st.write("Stage Prediction:", stage_details['stage'])
+        st.write("Stage Information:", stage_details['info'])
+        st.write("Treatment Recommendation:", stage_details['recommendation'])
+        st.image("data:image/png;base64," + histogram_base64, caption='Tumor Type Probabilities Histogram', use_column_width=True)
 
