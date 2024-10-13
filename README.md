@@ -6,23 +6,7 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=HalemoGPA/BrainMRI-Tumor-Classifier-Pytorch)
 
 
-This repository contains a deep learning-based solution for classifying brain tumors using MRI images. The model is trained to classify images into four categories: No Tumor, Pituitary, Glioma, Meningioma
-
-## Table of Contents
-- [Brain Tumor Classification](#brain-tumor-classification)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Dataset](#dataset)
-  - [Requirements](#requirements)
-  - [Training](#training)
-  - [Evaluation](#evaluation)
-  - [Streamlit App](#streamlit-app)
-    - [Functionality:](#functionality)
-  - [Project Demo](#project-demo)
-  - [Usage](#usage)
-  - [Results](#results)
-  - [Acknowledgments](#acknowledgments)
-  - [Kaggle Notebook](#kaggle-notebook)
+This repository contains a deep learning-based solution for classifying brain tumors using MRI images . The model is trained to classify images into four categories: No Tumor, Pituitary, Glioma, Meningioma.
 
 ## Overview
 This project uses a Convolutional Neural Network (CNN) implemented in PyTorch to classify brain MRI images. The model architecture consists of multiple convolutional, batch normalization, max-pooling layers followed by fully connected layers.
@@ -66,6 +50,7 @@ A Streamlit application has been developed to facilitate the deployment of the m
 1. **Model Loading**: The pre-trained model is loaded automatically upon accessing the app.
 2. **Image Upload**: Users can upload MRI images directly to the app interface.
 3. **Prediction Display**: Once an image is uploaded, the app displays the predicted tumor type based on the model's classification.
+4. **Prediction Recommendations:** After displaying the predictive results, the app presents the current state of the tumor along with tailored recommendations based on the model's classification.
 
 The Streamlit app provides a user-friendly interface for interacting with the model and obtaining predictions effortlessly.
 
@@ -73,19 +58,12 @@ Run the Streamlit app:
 ```sh
 streamlit run app.py
 ```
-## Project Demo
-
-
-
-https://github.com/HalemoGPA/BrainMRI-Tumor-Classifier-Pytorch/assets/73307941/ed102d41-6084-4b88-ab92-07e532481ea9
-
-
 
 ## Usage
 1. **Clone the repository**:
 ```sh
-git clone https://github.com/HalemoGPA/BrainMRI-Tumor-Classifier-Pytorch.git
-cd BrainMRI-Tumor-Classifier-Pytorch
+git clone https://github.com/Mahreztrabelsi/BrainModel-IA.git
+cd BrainModel-IA
 ```
 2. **Install dependencies**:
 ```sh
